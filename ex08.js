@@ -31,3 +31,11 @@ isAllEven([4, 4, 6, 8, 10, 12]);
 
 //  écrire votre code sous ce commentaire
 
+function isAllEven(num) {
+    var sum = num.reduce(function(pv, cv) { return pv + cv; }, 0)
+    if (sum % 2 === 0) {
+        console.log('1');
+    } else {
+        console.log('0');
+    }
+};

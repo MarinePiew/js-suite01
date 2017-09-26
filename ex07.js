@@ -22,3 +22,8 @@ boostedAddition([4, 5, 6]);
 boostedAddition([4, 4, 6, 8, 10, 12]);
 
 //  écrire votre code sous ce commentaire
+function boostedAddition(num) {
+    var sum = num.reduce(function(pv, cv) { return pv + cv; }, 0);
+    console.log(sum);
+};
+

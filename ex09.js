@@ -22,3 +22,12 @@ boostedEvenAddition([4, 5, 6]);
 boostedEvenAddition([1, 3, 4, 5, 4, 6, 9, 8, 11, 10, 11, 12]);
 
 //  écrire votre code sous ce commentaire
+function boostedEvenAddition(num) {
+    sum = 0;
+    for (let i = 0; i < num.length; i++) {
+        if (num[i] % 2 === 0) {
+            sum += num[i];
+        }
+    }
+   console.log(sum);
+};

@@ -13,7 +13,7 @@
     et nous attendons comme résultat 1;
 */
 
-isEven(6);
+console.log(isEven(6));
 
 /*      Test 2
     Appel à la fonction "isEven",
@@ -21,6 +21,15 @@ isEven(6);
     et nous attendons comme résultat 0;
 */
 
-isEven(5);
+console.log(isEven(5));
 
 //  écrire votre code sous ce commentaire
+
+function isEven(num) {
+    if(num % 2 === 0) {
+        return 1;
+    } else {
+        return 0;
+    }
+};
+
